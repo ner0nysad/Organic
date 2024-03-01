@@ -1,0 +1,35 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a img ol, ul, li, form, label, footer, header, nav, section, video, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+*,*:before,*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+footer, header, nav, section, main, img {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+img {
+	object-fit: cover;
+}
+button {
+	cursor: pointer;
+	border: none;
+}
+input:focus, textarea:focus {
+	outline: none;
+}
